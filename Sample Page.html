@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Sample Page</title>
+</head>
+<body>
+<center>
+<div style="background-color:powderblue">
+<p>This is my first Guide blog...
+<h3>Let's discuss about few good places to visit in Pune</h3></p></center> 
+<ol>
+<li>Sinhagad Fort</li>
+<li>Ghoradeshwar Hill</li>
+<li>Shaniwar Wada</li>
+</ol>
+<!--This is a comment-->
+<h3>Images</h3>
+<img src=RS.png height="150" width="350" border="3px"></img>
+<br><br><br>
+<table border=1px">
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>E</th>
+<th>F</th>
+<th>G</th>
+<th>H</th>
+<th>I</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</table>
+<br> <br> <br>
+<form>
+<label>Enter your first name</label>
+<input type="text" name="fname"/>
+<br><br>
+<label>Enter your mobile number</label>
+<input type="tel"/>
+<input type="button" value="Submit"/>
+</form>
+<br> <br> <br>
+<canvas id="mycanvas" width="350" height="350" style="border:1px solid red">
+Your browser doesn't support the canvas!</canvas>
+<script>
+var x = document.getElementById("mycanvas");
+var a = x.getContext("2d");
+a.moveTo(0,0);
+a.lineTo(350,350);
+a.stroke();
+var y = document.getElementById("mycanvas");
+var b = y.getContext("2d");
+b.moveTo(0,350);
+b.lineTo(350,0);
+b.stroke();
+</script>
+</body>
+</html>
